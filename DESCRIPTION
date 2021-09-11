@@ -1,0 +1,18 @@
+Package: montyhall
+Title: The Monty Hall Problem Game
+Version: 0.0.0.9000
+Authors@R: 
+    person(given = "Brittany",
+           family = "Moreno",
+           role = c("aut", "cre"),
+           email = "bbmoren2@asu.edu",
+           comment = c(ORCID = "YOUR-ORCID-ID"))
+Description: This package simulates the Monty Hall Problem Game. This refers to the classic TV show game where a contestant selects from one of three doors for the possibility of winning a new car. This package creates a new game (assigning the car randomly to one of three doors), simulates the contestant's door selection, the door opened by the host, and whether the contestant stays with or switches their door. The outcome is revealed depending on the final door selection by the contestant. This package can also run the game for n times to compare wins to losses.
+Depends:
+    dplyr
+License: `use_mit_license()`, `use_gpl3_license()` or friends to pick a
+    license
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.2
